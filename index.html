@@ -2,11 +2,11 @@
 
 <html>
 <head>
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Camra- Mobile App Coming Soon Landing Page</title>
-<meta name="description" content="Mobile App Coming Soon Landing Page">
+<title>ETA - Your Executive Travel App</title>
+<meta name="description" content="Your Executive Travel App">
 <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 <link rel="icon" href="img/favicon.ico" type="image/x-icon">
 <link href="css/plugins.min.css" rel="stylesheet">
@@ -24,11 +24,13 @@
     <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#home">Home</a></li>
+        <!--
         <li><a href="#features">Features</a></li>
         <li><a href="#video">Video</a></li>
         <li><a href="#screenshots">Screenshots</a></li>
         <li><a href="#tweets">Tweets</a></li>
         <li><a href="#contact">Contact</a></li>
+        -->
         <li><a href="#sub" class="btn-default">Notify Me</a></li>
       </ul>
     </div>
@@ -68,10 +70,15 @@
         
         <!--welcome-message-->
         <header class="welcome-message">
-          <h1><span>Camra</span> The Perfect Camera App</h1>
+          <h1><span>eta</span><br/> Your Executive Travel App</h1>
           <h2>Launching Soon</h2>
         </header>
-        <div class="action-btn"><a href="#features" class="btn btn-default">Learn More</a> <a href="#sub" class="btn btn-default">Notify Me</a></div>
+        <div class="action-btn">
+          <!--
+          <a href="#features" class="btn btn-default">Learn More</a>
+          -->
+          <a href="#sub" class="btn btn-default">Notify Me</a>
+        </div>
         <!--welcome-message end--> 
         
       </div>
@@ -87,7 +94,7 @@
 <section class="features section-spacing" id="features">
   <div class="container">
     <header class="text-center">
-      <h2>Camra Features</h2>
+      <h2>ETA Features</h2>
       <h3>Awesome features of camera app</h3>
     </header>
     
@@ -137,7 +144,7 @@
 <section class="video section-spacing text-center" id="video">
   <div class="container">
     <header class="text-center">
-      <h2>Watch Camra in Action</h2>
+      <h2>Watch ETA in Action</h2>
       <h3>Video explaining features of camera app</h3>
     </header>
     <div class="row">
@@ -188,7 +195,7 @@
 <section class="sub-form section-spacing text-center" id="sub">
   <div class="container">
     <header class="text-center">
-      <h2>Subscribe To Get Notified</h2>
+      <h2>Get Notified</h2>
       <h3>Stay informed by entering your email address below</h3>
     </header>
     
@@ -216,8 +223,10 @@
       <div class="col-md-10 center-block"> 
         
         <!--mailchimp form-->
-        <form class="form-inline" role="form" id="mc-form" action="php/subscribe.php">
-          <input type="email" class="form-control" placeholder="Email Address" required name="email" id="mailchimp-email">
+        <form class="form-inline" role="form" id="mc-form" action="http://eta.us11.list-manage.com/subscribe/post">
+          <input type="email" class="form-control" name="MERGE0" id="MERGE0" placeholder="Email Address" required>
+          <input type="hidden" name="u" value="a0f33744cf259b6510062bb3f">
+          <input type="hidden" name="id" value="4b8df9c1d5">
           <button type="submit" class="btn btn-default button">Notify Me</button>
         </form>
         <!--mailchimp form end-->
@@ -302,7 +311,7 @@
         
         <!--social end--> 
         
-        <small>&copy; Copyright Camra. All Rights Reserved.</small>
+        <small>&copy; Copyright ETA. All Rights Reserved.</small>
         <p><a href="" data-toggle="modal" data-target="#privacy">Privacy</a> | <a href="" data-toggle="modal" data-target="#terms">Terms of Use</a></p>
         
         <!-- Privacy Modal -->
