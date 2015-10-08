@@ -6,7 +6,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>ETA - Your Executive Travel App</title>
-<meta name="description" content="Your Executive Travel App">
+<meta name="description" content="We take care of business travel so you can take care of business">
+<meta property="og:url" content="http://www.eta.ai/">
+<meta property="og:title" content="ETA - Your Executive Travel App">
+<meta property="og:description" content="We take care of business travel so you can take care of business">
+<meta property="og:image" content="http://www.eta.ai/img/logo-nav@2x.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@etadotai">
 <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 <link rel="icon" href="img/favicon.ico" type="image/x-icon">
 <link href="css/plugins.min.css" rel="stylesheet">
@@ -23,6 +29,14 @@
 </script>
 </head>
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=471866216330140";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 <!--nav-->
 
@@ -170,8 +184,13 @@
         <!--social-->
         
         <ul class="social">
-          <li><a href="https://twitter.com/etadotai" target="_blank"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="https://www.facebook.com/etadotai" target="_blank"><i class="fa fa-facebook"></i></a></li>
+          <li>
+            <a href="https://twitter.com/etadotai" class="twitter-follow-button" data-show-count="false">Follow @etadotai</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+          </li>
+          <li>
+            <div class="fb-like" data-href="http://www.eta.ai/" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div>
+          </li>
         </ul>
         
         <!--social end--> 
