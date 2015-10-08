@@ -336,10 +336,10 @@ transform:translateY(0);
 .btn:focus,
 .btn-default:active { outline: none; }
 
-#mc-notification { margin: 1.5em 0 0; }
+#mce-responses { margin: 1.5em 0 0; }
 
-#mc-notification .alert,
-#mc-notification .success { display: inline-block; }
+#mce-responses .alert,
+#mce-responses .success { display: inline-block; }
 
 .success,
 .alert,
