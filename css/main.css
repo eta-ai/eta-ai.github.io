@@ -737,7 +737,3 @@ ul.countdown li.seperator {
 
 ul.countdown li p { font-size: 12.642px; }
 }
-
-#features, #video, #screenshots, #tweets, #contact {
-  display: none;
-}
