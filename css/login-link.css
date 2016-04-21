@@ -1,0 +1,44 @@
+body {
+  background: url('../img/background.png') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+
+.main {
+  background: none;
+  min-height: initial;
+}
+
+.main:before {
+  background: none;
+}
+
+.site-footer {
+  background: none;
+}
+
+.haiku-line {
+  font-size: 22px;
+}
+
+.main .social li a .fa-twitter {
+  color: #4099ff;
+}
+
+.main .social li a .fa-facebook {
+  color: #3b5998;
+}
+
+.haiku-container {
+  margin-top: 4.5em;
+}
+
+@media (min-width: 992px) {
+  .haiku-container {
+    margin-top: 6em;
+  }
+}
