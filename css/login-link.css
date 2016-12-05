@@ -21,10 +21,6 @@ body {
   background: none;
 }
 
-.haiku-line {
-  font-size: 22px;
-}
-
 .main .social li a .fa-twitter {
   color: #4099ff;
 }
@@ -34,7 +30,11 @@ body {
 }
 
 .haiku-container {
-  margin-top: 4.5em;
+  margin-top: 2.5em;
+}
+
+.haiku-container li {
+  margin-top: 1em;
 }
 
 @media (min-width: 992px) {
