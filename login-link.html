@@ -58,8 +58,11 @@
           <div class="col-md-12 text-center haiku-container">
             <h3>Welcome to ETA!</h3>
             <ul>
-              <li>
+              <li id="ios-instruction" style="display:none">
                 <a href="etadotai://">Switch back to the app</a> to login.
+              </li>
+              <li id="default-instruction">
+                Open this link on the iOS device with ETA installed to login.
               </li>
               <li>
                 Or email <a href="mailto:support@eta.ai"/>support@eta.ai</a> if you are having trouble.
@@ -102,5 +105,15 @@
     </footer>
     <!--site-footer end-->
 
+    <script>
+      (function switchInstruction () {
+       if (/\((iPhone|iPod|iPad|iPhone Simulator);/i.test(navigator.userAgent)) {
+         document.addEventListener('DOMContentLoaded', function () {
+           document.getElementById('ios-instruction').style.display='block';
+           document.getElementById('default-instruction').style.display='none';
+         }, false)
+       }
+      }());
+    </script>
   </body>
 </html>
