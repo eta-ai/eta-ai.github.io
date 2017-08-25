@@ -59,8 +59,22 @@ img {
   height: auto;
 }
 
-ul,
-li {
+ol.steps {
+	margin-top: 1em;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 1em;
+}
+
+ol li {
+  padding: 0;
+  margin: 0;
+	text-align: left;
+}
+ul {
+	padding: 0;
+}
+ul li {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -287,6 +301,7 @@ transform:translateY(0);
 
 .sub-form header { margin-bottom: 2.625em; }
 
+.sms-form .form-control,
 .sub-form .form-control {
   padding: 1em 2em;
   border-radius: 30px;
@@ -294,8 +309,11 @@ transform:translateY(0);
   box-shadow: none;
 }
 
+.sms-form .btn-default,
 .sub-form .btn-default { padding: 1em 5em; }
 
+.sms-form .form-control,
+.sms-form .btn-default,
 .sub-form .form-control,
 .sub-form .btn-default {
   display: block;
@@ -504,7 +522,7 @@ ul.countdown li p {
    
 .site-footer,
 .video,
- .sub-form { background: #F7F7F7; }
+.sub-form { background: #F7F7F7; }
 
 .site-footer.section-spacing { padding: 4.5em 0; }
 
@@ -665,7 +683,8 @@ body { height: 100%; }
 
 .hero-img { margin-top: 1.5em; }
 
-.welcome-message { padding-top: 6.75em; }
+.welcome-message { padding-top: 6.8em; }
+#perksplus.welcome-message { padding-top: 2.8em; }
 
 .action-btn { margin: 1.5em 0 0; }
 
@@ -682,6 +701,13 @@ body { height: 100%; }
   display: inline-block;
 }
 
+.sms-form .form-control {
+  width: 38%;
+  margin-bottom: 0;
+  display: inline-block;
+}
+
+.sms-form .btn-default,
 .sub-form .btn-default {
   width: auto;
   display: inline-block;
