@@ -20,30 +20,6 @@
 <link rel="icon" href="img/favicon.ico" type="image/x-icon">
 <link href="css/plugins.min.css" rel="stylesheet">
 <link href="css/main.css" rel="stylesheet">
-<script type="text/javascript">
-            (function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode banner closeBanner creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setBranchViewData setIdentity track validateCode".split(" "), 0);
-branch.init('key_live_hfj8rJUgYkfvicyrLXB6HdomtvlVoghW');
-            function sendSMS(form) {
-                var phone = form.phone.value;
-                var linkData = {
-                    tags: [],
-                    channel: 'Website',
-                    feature: 'TextMeTheApp',
-                    data: {'ref': 'perksplus' }
-                };
-                var options = {};
-                var callback = function(err, result) {
-                    if (err) {
-                        alert("Sorry, something went wrong.");
-                    }
-                    else {
-                        alert("SMS sent!");
-                    }
-                };
-                branch.sendSMS(phone, linkData, options, callback);
-                form.phone.value = "";
-            }
-</script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -153,6 +129,14 @@ fbq('track', "PageView");</script>
         	<input id="phone" name="phone" type="tel" placeholder="(650) 123-4567" class="form-control" />
         	<input type="submit" value="Text me the app" class="btn btn-default button">
         </form>
+				<div class="clear" id="sms-responses">
+					<div class="response alert" id="sms-error-response" style="display:none">
+						Oops! Try again or go to 'deep.eta.ai/app' on your phone browser.
+					</div>
+        	<div class="response success" id="sms-success-response" style="display:none">
+						Sent! Check your phone for instructions.
+					</div>
+				</div>
 				<hr/>
         <!--welcome-message end--> 
       </div>
@@ -299,6 +283,7 @@ fbq('track', "PageView");</script>
 
 <script src="js/plugins.min.js"></script> 
 <script src="js/main.js"></script>
+<script src="js/branch.js"></script>
 <script src="js/fb.js"></script>
 </body>
 </html>

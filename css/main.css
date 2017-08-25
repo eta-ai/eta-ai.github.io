@@ -360,8 +360,10 @@ transform:translateY(0);
 .btn:focus,
 .btn-default:active { outline: none; }
 
-#mce-responses { margin: 1.5em 0 0; }
+#sms-responses, #mce-responses { margin: 1.5em 0 0; }
 
+#sms-responses .alert,
+#sms-responses .success,
 #mce-responses .alert,
 #mce-responses .success { display: inline-block; }
 
