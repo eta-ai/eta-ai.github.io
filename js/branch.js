@@ -14,7 +14,6 @@ function sendSMS(form) {
 	smsError.style.display = 'none';
 	smsSuccess.style.display = 'none';
   var callback = function(err, result) {
-		console.log('err', err)
     if (err) {
 			smsError.style.display = 'block';
     }

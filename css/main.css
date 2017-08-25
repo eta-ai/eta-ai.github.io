@@ -310,7 +310,7 @@ transform:translateY(0);
 }
 
 .sms-form .btn-default,
-.sub-form .btn-default { padding: 1em 5em; }
+.sub-form .btn-default { padding: 1em; }
 
 .sms-form .form-control,
 .sms-form .btn-default,
@@ -337,7 +337,7 @@ transform:translateY(0);
 
 .btn-default {
   border-radius: 30px;
-  padding: 1em 3em;
+  padding: 1em;
   color: #fff;
   background-color: #3498db;
   border-color: #3498db;
@@ -704,14 +704,14 @@ body { height: 100%; }
 }
 
 .sms-form .form-control {
-  width: 38%;
+  width: 50%;
   margin-bottom: 0;
   display: inline-block;
 }
 
 .sms-form .btn-default,
 .sub-form .btn-default {
-  width: auto;
+  width: 45%;
   display: inline-block;
 }
 
