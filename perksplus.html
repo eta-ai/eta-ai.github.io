@@ -109,11 +109,22 @@ fbq('track', "PageView");</script>
       <div class="col-md-6 col-md-offset-1"> 
         
         <!--welcome-message-->
-        <header class="welcome-message">
-          <h1><span>eta</span></h1>
-          <h2>Your Executive Travel App</h2>
+        <header class="welcome-message" id="perksplus">
+          <h1><span>Welcome</span></h1>
+          <h2>United PerksPlus℠ Customers</h2>
+          <h3>10K bonus points + free year of ETA</h3>
         </header>
         <hr/>
+        <div>
+          <h4>Follow the steps below</h4>
+          <ol class="steps">
+            <li>Enter phone number and press 'Text me the app'.</li>
+            <li>Download ETA to your iPhone.</li>
+            <li>Sign in with your work email.</li>
+            <li>Tap on Profile at the bottom.</li>
+            <li>Select United PerksPlus℠ Setup.</li>
+          </ol>
+        </div>
         <form onsubmit="sendSMS(this); return false;" class="sms-form">
         	<input id="phone" name="phone" type="tel" placeholder="(650) 123-4567" class="form-control" />
         	<input type="submit" value="Text me the app" class="btn btn-default button">
@@ -126,9 +137,8 @@ fbq('track', "PageView");</script>
 						Sent! Check your phone for instructions.
 					</div>
 				</div>
-        <hr/>
+				<hr/>
         <!--welcome-message end--> 
-        
       </div>
       <div class="col-md-5"> <img src="img/hero.png" alt="" class="wow fadeInRight hero-img" data-no-retina> </div>
     </div>
