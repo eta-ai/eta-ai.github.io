@@ -457,6 +457,7 @@ ul.countdown li p {
 /* ==========================================================================
    8.Contact
    ========================================================================== */
+.section-spacing header { margin-bottom: 3em; }
  
 .video header,
 .screenshot header,
@@ -756,3 +757,41 @@ ul.countdown li.seperator {
 
 ul.countdown li p { font-size: 12.642px; }
 }
+
+/* ==========================================================================
+   5.reviews
+   ========================================================================== */
+.reviews blockquote {
+  border-left: none;
+  margin-bottom: 0;
+  padding: 0;
+  position: relative;
+}
+
+.reviews blockquote p {
+  font-size: 20px;
+  font-weight: 300;
+  position: relative;
+}
+
+.reviews blockquote .fa-quote-left,
+.reviews blockquote .fa-quote-right {
+  position: absolute;
+  color: #E4E4E4;
+  font-size: 1em;
+}
+
+blockquote .fa-quote-left {
+  left: 2px;
+  top: -20px;
+}
+
+blockquote .fa-quote-right {
+  right: 2px;
+  bottom: -20px;
+}
+
+.reviews figure,
+.reviews blockquote p { margin-bottom: .75em; }
+
+.reviews blockquote cite { color: #777; }
