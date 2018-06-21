@@ -80,6 +80,15 @@ ul li {
   margin: 0;
 }
 
+.add-frame {
+  padding-top: 82px;
+  padding-bottom: 74px;
+  padding-left: 21px;
+  padding-right: 20px;
+  width: 320px;
+  background-image: url('../img/iphone7plus.png');
+}
+
 /* ==========================================================================
    2.main
    ========================================================================== */
