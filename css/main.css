@@ -32,7 +32,7 @@ body {
   font-size: 16px;
 }
 
-p { color: #888; }
+p { color: #262626; }
 
 h1,
 h2,
@@ -249,13 +249,13 @@ transform:translateY(0);
 .features h4 { margin-top: 0; }
 
 .section-spacing h2 {
-  color: #333;
+  color: #131313;
   font-weight: 300;
   text-transform: uppercase;
 }
 
 .section-spacing header h3 {
-  color: #999;
+  color: #262626;
   font-size: 20px;
 }
 
@@ -275,12 +275,12 @@ transform:translateY(0);
 
 .features p {
   font-size: 17px;
-  color: #B2B2B2;
+  color: #262626;
 }
 
 .features li {
   font-size: 17px;
-  color: #B2B2B2;
+  color: #262626;
   margin-bottom: 10px;
 }
 
