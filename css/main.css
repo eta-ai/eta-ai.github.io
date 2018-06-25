@@ -98,6 +98,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3236ff', end
   color: #fff;
   text-align: center;
 }
+.hero-container {
+  position: relative;
+  margin: auto;
+  width: 320px;
+  height: 640px;
+}
+.splash-animation {
+  padding-left: 22px;
+  padding-top: 14px;
+  position: absolute;
+  left: 0;
+}
+.phone-frame {
+  position: absolute;
+  left: 0;
+}
 
 .overlay { display: none; }
 
@@ -690,8 +706,7 @@ body { height: 100%; }
   float: right;
 }
 
-.hero-img { margin-top: 1.5em; }
-
+.hero-img { margin-top: 1.5em }
 .welcome-message { padding-top: 6.8em; }
 #perksplus.welcome-message { padding-top: 2.8em; }
 
