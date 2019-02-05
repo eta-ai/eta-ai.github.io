@@ -138,6 +138,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3236ff', end
 
 .main h1 span { font-weight: 400; }
 
+.main header p { color: #ffffff; }
+
 .welcome-message { padding-top: 1.5em; }
 
 .action-btn { margin: 1.5em 0 3em; }
@@ -821,3 +823,23 @@ blockquote .fa-quote-right {
 .reviews blockquote p { margin-bottom: .75em; }
 
 .reviews blockquote cite { color: #777; }
+
+.code {
+  color: #E01F5B;
+  background: #F7F7F9;
+  padding-left: 3px;
+  padding-right: 3px;
+  margin: 1px;
+  border: 1px solid #E1E1E8;
+  border-radius: 5px;
+}
+
+ol.usage li {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.note {
+  font-size: 14px;
+  color: #A9A9A9;
+}
