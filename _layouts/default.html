@@ -6,12 +6,12 @@
 <link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{ page.title || site.title }}</title>
-<meta name="description" content="{{ page.descriptoin || site.description }}">
+<title>{{ page.title | default: site.title }}</title>
+<meta name="description" content="{{ page.description | default: site.description }}">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.eta.ai/">
-<meta property="og:title" content="{{ page.title || site.title }}">
-<meta property="og:description" content="{{ page.description || site.description }}">
+<meta property="og:title" content="{{ page.title | default: site.title }}">
+<meta property="og:description" content="{{ page.description | default: site.description }}">
 <meta property="og:image" content="https://www.eta.ai/img/ogImage.png">
 <meta property="fb:app_id" content="471866216330140">
 <meta name="apple-itunes-app" content="app-id=1101863917, affiliate-data=web, app-argument=etadotai://web">
